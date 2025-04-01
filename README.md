@@ -28,7 +28,7 @@ bash
 Copy
 Edit
 # Clone the repository
-git clone https://github.com/yourusername/fintech-dashboard.git
+git clone https://github.com/Razak002/fintech-dashboard.git
 
 # Navigate into the project directory
 cd fintech-dashboard
