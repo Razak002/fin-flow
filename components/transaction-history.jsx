@@ -134,7 +134,7 @@ export function TransactionHistory() {
                                     onChange={handleSearchChange}
                                 />
                             </div>
-                            <div className="flex gap-4">
+                            <div className="flex gap-2 md:gap-4">
                             <Select defaultValue="date" onValueChange={(value) => handleSortChange(value)}>
                                 <SelectTrigger className="w-[180px]">
                                     <SelectValue placeholder="Sort by" />
@@ -146,7 +146,7 @@ export function TransactionHistory() {
                                     <SelectItem value="category">Category</SelectItem>
                                 </SelectContent>
                             </Select>
-                            <div className="flex gap-4 items-center">
+                            <div className="flex gap-2 md:gap-4 items-center">
                                 <Button
                                     variant="outline"
                                     size="icon"
