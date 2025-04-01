@@ -19,6 +19,10 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "FinFlow - Financial Dashboard",
   description: "A fintech dashboard for savings and investments",
+  icons: {
+    icon: "/favicon.ico",
+  },
+
 };
 
 export default function RootLayout({ children }) {
